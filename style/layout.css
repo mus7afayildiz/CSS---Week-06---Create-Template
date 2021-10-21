@@ -1,0 +1,52 @@
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*header style*/
+header{
+    flex-grow: 4;
+    height: 20vh;
+}
+
+/*section style*/
+section{
+    background-color: rgb(18, 156, 87);
+    flex-grow: 12;
+    height: 70vh;
+}
+
+/*footer style*/
+footer{
+    background-color: rgb(238, 234, 247);
+    flex-grow: 1;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+footer div{
+    background-color: rgb(237, 243, 242);
+    border: 1px rgb(104, 27, 43) solid;
+    width: 4vw;
+    height: 5vh;
+    
+}
+
+.footerAltSol{
+    width: 60vw;
+    height: 5vh;
+    display: flex;
+    float: left;
+    
+}
+
+.ic{
+    background-color: #62a6f1;
+    width: 45vw;
+    height: 4vh;
+    margin: 2px;
+}

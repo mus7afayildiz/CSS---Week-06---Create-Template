@@ -1,0 +1,22 @@
+sekilSolUst aside{
+    background-color: 62a6f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.asideUst{
+    width: 8vw;
+    height: 2vh;
+}
+
+.asideOrta{
+    width: 8vw;
+    height: 1vh;
+}
+
+.asideAlt{
+    width: 3 vw;
+    height: 3vh;
+}
