@@ -1,22 +1,157 @@
-sekilSolUst aside{
-    background-color: 62a6f1;
+main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    
+}
 
+/*header style*/
+header div{
+    margin: 2vh;
+}
+
+
+header{
+    flex-grow: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*header-Sol kutu*/
+.sekilSolUst{
+    background-color: #f6f8fc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+}
+
+.sekilSolUst aside{
+    background-color: #6dadf4;
+    margin: 1vh;
 }
 
 .asideUst{
-    width: 8vw;
-    height: 2vh;
+    width: 23vw;
+    height: 1.5vh;
 }
 
 .asideOrta{
-    width: 8vw;
+    width: 23vw;
     height: 1vh;
 }
 
 .asideAlt{
-    width: 3 vw;
-    height: 3vh;
+    width: 7vw;
+    height: 2.5vh;
 }
+
+/*header-orta kutu*/
+.sekilOrtaUst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f8fc;
+    width: 35vw;
+    height: 12vh;
+}
+.daire{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 100%;
+    background-color: #6dadf4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.ucgen{
+    background-color: #f6f8fc;
+    width: 2vh;
+    height: 2vh;
+
+    border-color:transparent transparent  transparent #f6f8fc ;
+    border-style: solid;
+    border-width: 2vh 2vh 2vh 2vh;
+    height: 0px;
+    width: 0px;
+}
+
+
+/*header-sag kutu*/
+.sekilSagUst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 20vw;    
+    height: 12vh;
+}
+
+.sekilSagUst aside{
+    width: 20vw;
+    background-color: #f6f8fc;
+    height: 1.2vh;
+    
+}
+
+
+/*section style*/
+section{
+    background-color: #6dadf4;
+    flex-grow: 12;
+    height: 70vh;
+}
+
+
+
+
+
+
+
+/*footer style*/
+footer{
+    background-color: #6dadf4;
+    flex-grow: 1;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+footer div{
+    background-color: rgb(237, 243, 242);
+    border: 1px rgb(104, 27, 43) solid;
+    width: 4vw;
+    height: 5vh;
+    
+}
+
+.footerAltSol{
+    width: 60vw;
+    height: 5vh;
+    display: flex;
+    float: left;
+    
+}
+
+.ic{
+    background-color: #62a6f1;
+    width: 45vw;
+    height: 4vh;
+    margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
