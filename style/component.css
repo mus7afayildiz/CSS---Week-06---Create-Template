@@ -68,16 +68,12 @@ header{
     
 }
 
-.ucgen{
-    background-color: #f6f8fc;
-    width: 2vh;
-    height: 2vh;
-
-    border-color:transparent transparent  transparent #f6f8fc ;
-    border-style: solid;
-    border-width: 2vh 2vh 2vh 2vh;
-    height: 0px;
-    width: 0px;
+.ucgen{    
+    width:0.4vh;
+    height:0.4vh;
+    border-top:0.8vh solid transparent;
+    border-bottom:0.8vh solid transparent;
+    border-left:1.6vh solid #f6f8fc;   
 }
 
 
@@ -125,7 +121,6 @@ footer{
 
 footer div{
     background-color: rgb(237, 243, 242);
-    border: 1px rgb(104, 27, 43) solid;
     width: 4vw;
     height: 5vh;
     
@@ -135,6 +130,7 @@ footer div{
     width: 60vw;
     height: 5vh;
     display: flex;
+    align-items: center;
     float: left;
     
 }
