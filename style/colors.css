@@ -1,0 +1,98 @@
+/*header-Sol kutu*/
+.sekilSolUst{
+    background-color: #f6f8fc;
+}
+
+.sekilSolUst aside{
+    background-color: #6dadf4;
+}
+
+/*header-orta kutu*/
+.sekilOrtaUst{
+    background-color: #f6f8fc;
+}
+
+.daire{
+    background-color: #6dadf4;
+}
+
+.ucgen{   
+    border-left:1.6vh solid #f6f8fc;  
+} 
+
+.sekilSagUst aside{
+    background-color: #f6f8fc;
+}
+
+/*section style*/
+section{
+    background-color: #6dadf4;
+}
+
+section div{
+    background-color: #f6f8fc;
+   
+}
+
+/*section style-sectionCepTelefonu*/
+.cizgi{
+    background-color: #6dadf4;
+}
+
+.ekran{
+    background-color: #6dadf4;
+}
+
+.buton{
+    background-color: #f6f8fc;
+    border: 1px solid #6dadf4;
+}
+
+/*section style-sectionSagKare*/
+#sectionSagKare{
+    background-color: transparent;
+}
+
+#sectionSagKareUst{
+    background-color: transparent;
+}
+.yuvarlaklar{
+    background-color: #6dadf4;
+}
+
+.icYuvarlakBeyaz{
+    background-color: #f6f8fc;
+    border: 1px solid #6dadf4;
+}
+
+.icYuvarlakMavi{
+    background-color: #6dadf4;
+    border: 1px solid #f6f8fc;
+}
+
+.dis{
+    background-color: #f6f8fc;
+}
+
+.cubuklar{
+    background-color: #6dadf4;
+}
+.cubuk{
+    background-color:#f6f8fc ;
+}
+
+/*footer style*/
+footer{
+    background-color: #6dadf4;
+}
+
+footer div{
+    background-color: #f6f8fc;
+}
+
+.ic{
+    background-color: #62a6f1;
+}
+p{
+    color: #6dadf4;
+}

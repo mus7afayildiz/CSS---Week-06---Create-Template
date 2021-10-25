@@ -1,0 +1,74 @@
+/*header style*/
+header div{
+    margin: 2vh;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*header-Sol kutu*/
+.sekilSolUst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 38vw;
+    height: 16vh;
+}
+
+.asideUst{
+    width: 27vw;
+    height: 2vh;
+}
+
+.asideOrta{
+    width: 27vw;
+    height: 1vh;
+}
+
+.asideAlt{
+    width: 10vw;
+    height: 4vh;
+}
+
+/*header-orta kutu*/
+.sekilOrtaUst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41vw;
+    height: 16vh;
+}
+.daire{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.ucgen{    
+    width:0.4vh;
+    height:0.4vh;
+    border-top:0.8vh solid transparent;
+    border-bottom:0.8vh solid transparent;
+}
+
+/*header-sag kutu*/
+.sekilSagUst{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 13vw;    
+    height: 16vh;
+}
+
+.sekilSagUst aside{
+    width: 13vw;
+    height: 1.5vh;
+}

@@ -1,0 +1,99 @@
+/*section style*/
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 12;
+    height: 65vh;
+}
+
+
+/*section style-sectionCepTelefonu*/
+#sectionCepTelefonu{
+    width: 20vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 2vw;
+}
+ 
+.cizgi{
+    width: 8vw;
+    height: 0.1vh;
+}
+
+.ekran{
+    width: 17vw;
+    height: 50vh;
+}
+
+.buton{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+}
+/*section style-sectionOrtaKare*/
+
+#sectionOrtaKare{
+    width: 40vw;
+    height: 60vh;
+}
+
+/*section style-sectionSagKare*/
+#sectionSagKare{
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionSagKareUst{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.yuvarlaklar{
+    display: flex; 
+}
+
+.icYuvarlakBeyaz{
+    width: 5vh;
+    height:5vh;
+    border-radius: 100%;
+}
+
+.icYuvarlakMavi{
+    width: 5vh;
+    height: 5vh;
+    border-radius: 100%;
+}
+#sag{
+    display: flex;
+    flex-flow: row-reverse;
+}
+.dis{
+    width: 10vh;
+    border-radius: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.cubuklar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cubuk{
+    width: 13vw;
+    height: 1vh;
+}
+
+.sectionSagKareAlt{
+    width: 30vw;
+    height: 50vh;
+}
